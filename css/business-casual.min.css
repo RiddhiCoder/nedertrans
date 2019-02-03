@@ -103,7 +103,7 @@ p {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  height: 0;
+  height: 350px;
 }
 
 .map-responsive #map {
@@ -133,6 +133,12 @@ p {
     display: block;
     font-size: 7vw;
     font-weight: 100;
+  }
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 300px;
   }
 }
 .btn-xl {
@@ -176,7 +182,7 @@ p {
 }
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
+  padding: 1rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
