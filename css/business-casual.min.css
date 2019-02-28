@@ -104,6 +104,8 @@ p {
   padding-bottom: 56.25%;
   position: relative;
   height: 350px;
+  margin: 0 10%;
+  border: 5px solid rgba(230, 167, 86, 0.6);
 }
 
 .map-responsive #map {
@@ -138,6 +140,7 @@ p {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
+    margin: 0 0;
     height: 300px;
   }
 }
