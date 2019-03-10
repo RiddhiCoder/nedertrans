@@ -318,3 +318,31 @@ p {
   display: flex;
   align-items: center;
 }
+.modal-content {
+  font-family: Lora;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(47, 23, 15, 0.65))
+    ),
+    url(../img/bg.jpg);
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid rgba(47, 23, 15, 0.9);
+}
+.pictograms td img {
+  width: 95%;
+}
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+}
+.modal-footer .btn {
+  background-color: rgba(47, 23, 15, 0.9);
+  color: #e6a756;
+}
