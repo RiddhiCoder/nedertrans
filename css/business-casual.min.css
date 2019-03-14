@@ -336,7 +336,9 @@ p {
 .pictograms td img {
   width: 95%;
 }
-.modal-header,
+.modal-header {
+  background-color: rgba(47, 23, 15, 0.6);
+}
 .modal-body,
 .modal-footer {
   background-color: rgba(255, 255, 255, 0.6);
@@ -345,4 +347,23 @@ p {
 .modal-footer .btn {
   background-color: rgba(47, 23, 15, 0.9);
   color: #e6a756;
+}
+.modal-title,
+.close {
+  font-family: Raleway;
+  color: #e6a756;
+  font-size: 1.4em;
+  font-weight: 550;
+}
+h5 {
+  font-family: Raleway;
+  color: rgba(47, 23, 15, 0.9);
+  font-size: 1.4em;
+  font-weight: 550;
+}
+.modal-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
