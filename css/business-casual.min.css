@@ -344,6 +344,21 @@ p {
   background-color: rgba(255, 255, 255, 0.6);
   text-align: justify;
 }
+.modal-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .modal-body,
+  .modal-footer {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .modal-image-container {
+    flex-direction: column;
+  }
+}
 .modal-footer .btn {
   background-color: rgba(47, 23, 15, 0.9);
   color: #e6a756;
@@ -360,10 +375,4 @@ h5 {
   color: rgba(47, 23, 15, 0.9);
   font-size: 1.4em;
   font-weight: 550;
-}
-.modal-image-container {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
 }
