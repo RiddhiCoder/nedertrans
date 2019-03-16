@@ -355,9 +355,16 @@ p {
   .modal-footer {
     background-color: rgba(255, 255, 255, 0.8);
   }
+  .modal-header {
+    background-color: rgba(47, 23, 15, 0.8);
+  }
   .modal-image-container {
     flex-direction: column;
   }
+}
+.modal-image,
+table {
+  margin: 0px 0px 5% 0px;
 }
 .modal-footer .btn {
   background-color: rgba(47, 23, 15, 0.9);
