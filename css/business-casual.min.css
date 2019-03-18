@@ -358,7 +358,8 @@ p {
   .modal-header {
     background-color: rgba(47, 23, 15, 0.8);
   }
-  .modal-image-container {
+  .modal-image-container,
+  .velux-product {
     flex-direction: column;
   }
 }
@@ -382,4 +383,15 @@ h5 {
   color: rgba(47, 23, 15, 0.9);
   font-size: 1.4em;
   font-weight: 550;
+}
+.velux-product {
+  display: flex;
+  align-items: center;
+}
+.velux-text {
+  text-align: justify;
+  margin-right: 5%;
+}
+.mini-img {
+  width: 150px;
 }
