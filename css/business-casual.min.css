@@ -351,13 +351,6 @@ p {
   align-items: center;
 }
 @media (max-width: 500px) {
-  .modal-body,
-  .modal-footer {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  .modal-header {
-    background-color: rgba(47, 23, 15, 0.8);
-  }
   .modal-image-container,
   .velux-product {
     flex-direction: column;
@@ -387,6 +380,7 @@ h5 {
 .velux-product {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .velux-text {
   text-align: justify;
@@ -394,4 +388,15 @@ h5 {
 }
 .mini-img {
   width: 150px;
+  padding: 0 5%;
+}
+.mini-img.wide {
+  width: 250px;
+  padding: 0 5%;
+  border-radius: 50% !important;
+}
+.velux-link-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
 }
