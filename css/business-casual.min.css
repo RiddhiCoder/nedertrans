@@ -400,3 +400,6 @@ h5 {
   display: flex;
   justify-content: center;
 }
+.about-text {
+  text-align: justify;
+}
