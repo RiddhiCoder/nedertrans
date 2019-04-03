@@ -308,7 +308,7 @@ p {
 }
 @media (max-width: 500px) {
   #products-container {
-    padding: 0px 5%;
+    padding: 0px 2%;
   }
   .product-name {
     font-size: 0.7em;
